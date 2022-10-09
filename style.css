@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li{
+    
+    padding: 0 12px;
+    cursor: pointer;
+    
+    
+}
+nav ul li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(82, 18, 155);
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+.brand{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("13-Places-to-Find-Background-Music-for-Video-Cover-Image-2.webp");
+}
+.Bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80vw;
+
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 56px;
+    display: flex;
+    width: 82%;
+    background-color: whitesmoke;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    border: 2px solid black;
+}
+.songItem img{
+    width: 31px;
+    margin: 0 24px;
+    border-radius: 34px;
+
+}
+audio{
+    
+    border-radius: 37px;
+    width: 466px;
+}
+.burger{
+   
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 23px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;   
+}
+#search{
+    display: flex;
+    position: absolute;
+    width: 262px;
+    height: 23px;
+    background: rgb(255, 253, 253);
+    right: -300px;
+    transition: .9s;
+    margin: 25px;
+
+}
+#search.active{
+    right: 0;
+} 
+#search .btn{
+    display: flex;
+    position: absolute;
+    width: 262px;
+    height: 23px;
+    background: rgb(255, 253, 253);
+    right: -300px;
+    transition: .9s;
+    margin: 25px;
+
+}
+ 

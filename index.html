@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="image-gallery-spotify-logo-21.png" alt="Spotify">Spotify</li>
+            <li><a href="#">Home</a></li>
+           <li><a href="#Services">Services</a></li>
+           <li><a href="#Contact Us">Contact Us</a></li>
+           <li><a href="#About Us">About Us</a></li>
+          </ul>
+        
+          <div class="burger" onclick="show()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn">search</button>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+       
+        <div class="songList">
+            <h1>Best of NCS - No copyright Sound</h1>
+            <div>
+                <div class="songItem">
+                    <img src="cover.1.jpg" alt="1">
+                    <span>love yourself</span>
+                    <span class="songlistplay"></span>
+                    <audio src="media/EK.mp3" controls autoplay></audio>
+                </div>
+                <div class="songItem">
+                    <img src="12.jfif" alt="12">
+                    <span>Kesariya</span>
+                    <span class="songlistplay"></span>
+                    <audio  src="media/Kesariya.mp3" controls autoplay></audio>
+                </div>
+                <div class="songItem">
+                    <img src="vi.jpg" alt="15">
+                    <span>Afat</span>
+                    <span class="songlistplay"></span>
+                    <audio  src="media/aafat-liger-hindi-128-kbps-sound.mp3" controls autoplay></audio>
+                </div>
+                <div class="songItem">
+                    <img src="Tamasha.jpg" alt="15">
+                    <span>Agar tum sath ho</span>
+                    <span class="songlistplay"></span>
+                    <audio  src="media/128-Agar Tum Saath Ho - Tamasha 128 Kbps.mp3" controls autoplay></audio>
+                </div>
+                <div class="songItem">
+                    <img src="media/daku.png" alt="12">
+                    <span>DAKU</span>
+                    <span class="songlistplay"></span>
+                    <audio  src="media/DAKU.mp3" controls autoplay></audio>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+             
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1dbbb91284.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
